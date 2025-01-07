@@ -12,7 +12,7 @@ ENV CHECK_INTERVAL="300"
 ENV BRANCH="main"
 
 # Copy the Python script
-COPY git_sync.py /app/git_sync.py
+COPY repo_puller.py /app/repo_puller.py
 WORKDIR /app
 
 # Default command
